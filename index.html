@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="stylesheets/global.css">
+  </head>
+
+  <body>
+    <!--[if lt IE 9]>
+      <p class="browser-warning"><strong><i class="icon-exclamation-sign"></i> Warning</strong> - You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to properly view this website.</p>
+    <![endif]-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Awesome Jerky</h1>
+          <p class="lead">
+            Get delicious, healthy beef jerky delivered to your door every month. Different flavors every month. From the best artisan / local jerky makers & butchers we can find. It's $20/month and you can join today to get in on the next batch.  Pay via the 'Buy Now' link on this page and I'll follow up to confirm your shipping details, etc once I receive payment.
+          </p>
+          <p class="lead">For questions email <a href="mailto:founders@awesomejerky.co">founders@awesomejerky.co</a></p>
+          <img class="jerky hidden-sm" src="img/jerky.jpg">
+        </div>
+        <div class="col-md-6">
+          <div class="price">
+            $20 / month
+          </div>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="T7NJSWXELX9LG">
+            <table>
+            <tr><td><input type="hidden" name="on0" value="Select your Awesome Jerky Subscription">Select your Awesome Jerky Subscription</td></tr><tr><td><select name="os0">
+              <option value="6 month subscription">6 month subscription $120.00 USD</option>
+              <option value="3 month subscription">3 month subscription $60.00 USD</option>
+              <option value="1 month subscription">1 month subscription $20.00 USD</option>
+            </select> </td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+          <img class="jerky visible-sm" src="img/jerky.jpg">
+        </div>
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/lib/jquery-2.0.3.min.js"><\/script>')</script>
+    <script src="js/lib/bootstrap.js"></script>
+    <script src="js/global.js"></script>
+  </body>
+</html>
