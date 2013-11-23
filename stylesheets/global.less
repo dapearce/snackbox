@@ -1,0 +1,82 @@
+@import 'lib/bootstrap.css';
+@import 'lib/font-awesome.css';
+@import 'variables';
+@import 'mixins';
+
+/* ===============================
+    GLOBAL STYLES
+   =============================== */
+
+body {
+  background: url('../img/bg.png') repeat;
+  background-size: 50px 50px;
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  font-size: 24px;
+
+  @media @desktop {
+    margin-left: 50px;
+  }
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+img.jerky {
+  width: 300px;
+  border-radius: 300px;
+  border: 5px solid #fff;
+  margin-top: 20px;
+  margin: auto;
+}
+
+table {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.row {
+
+  @media @desktop {
+    margin-top: 50px;
+  }
+}
+
+.price {
+  font-size: 34px;
+  font-weight: 600;
+
+  @media @desktop {
+    font-size: 60px;
+    margin-top: 100px;
+  }
+}
+
+form {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+// MISCELLANEOUS
+
+.browser-warning {
+  background: #BD3535;
+  color: #fff;
+  padding: 0.5em 0;
+  text-align: center;
+
+   a {
+    color: #fff;
+    text-decoration: underline;
+  }
+}

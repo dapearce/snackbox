@@ -1,0 +1,5 @@
+/* ===============================
+    LESS VARIABLES
+   =============================== */
+@import 'lib/bootstrap.css';@import 'lib/font-awesome.css';body{background:url('../img/bg.png') repeat;background-size:50px 50px;text-align:center}ul{text-align:left;font-size:24px}@media (min-width: 992px){ul{ margin-left:50px}}h1{margin-bottom:30px;font-weight:600}img.jerky{width:300px;border-radius:300px;border:5px solid #fff;margin-top:20px;margin:auto}table{margin:auto;margin-bottom:20px}@media (min-width: 992px){.row{ margin-top:50px}}.price{font-size:34px;font-weight:600}@media (min-width: 992px){.price{ font-size:60px;margin-top:100px}}form{margin-top:20px;margin-bottom:30px}img{max-width:100%}.browser-warning{background:#BD3535;color:#fff;padding:.5em 0;text-align:center}.browser-warning a{color:#fff;text-decoration:underline}
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
